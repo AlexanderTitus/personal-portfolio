@@ -1,0 +1,24 @@
+<%- include("partials/header.ejs") %>
+
+<script>
+  $(document).ready(function() {
+    $(".nav-link").removeClass("active");
+    $(".nav-link").removeAttr("aria-current");
+    $("#about").addClass("active");
+    $("#about").addAttr("aria-current");
+  });
+</script>
+
+<div class="container">
+  <h1>About Titus</h1>
+  <hr>
+</div>
+<div class="container">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam et nulla porttitor, venenatis justo dapibus, condimentum odio. Etiam velit neque, mattis eu leo vel, pharetra consectetur nibh. Aliquam nec magna sit amet ligula convallis gravida et et justo. Curabitur mauris nisi, vulputate nec sodales eget, tristique vitae dui. Nam sit amet bibendum lacus. Nam in molestie tellus. Sed condimentum nulla leo, quis semper enim dapibus non. Vestibulum nec volutpat felis.</p>
+  <p>Pellentesque bibendum ultrices ex et euismod. Curabitur et enim urna. Suspendisse vestibulum nulla metus, sit amet sodales enim varius quis. In accumsan enim in velit consectetur, sit amet dignissim purus vehicula. Curabitur gravida, nunc at tempor pellentesque, felis dui viverra enim, sed faucibus augue metus vitae lectus. Aliquam consectetur eget sapien a gravida. Donec quis justo elementum, commodo dolor vel, mollis est. Duis at nibh aliquet, pharetra elit scelerisque, iaculis nunc. Fusce ipsum ante, mollis nec porttitor ac, faucibus vitae ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vivamus condimentum a tortor vitae sagittis. Morbi sed ornare enim. Donec eu cursus orci, quis tempor mi. Pellentesque ex felis, varius auctor tellus a, congue porta lectus. Integer ut diam cursus, consectetur mauris id, ultricies dolor. Curabitur pellentesque massa arcu, sed interdum ipsum tincidunt vel.</p>
+  <p>Proin posuere sapien non vehicula egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc tristique maximus nunc, id ornare neque finibus id. Pellentesque sagittis fringilla metus vitae bibendum. Donec faucibus turpis quis aliquam condimentum. Maecenas vel placerat ipsum. Nulla felis nisi, dictum et ipsum vitae, scelerisque commodo dolor. Vivamus gravida arcu ante, sed posuere enim placerat eget. Morbi cursus tincidunt tellus, ac pharetra dolor pulvinar vestibulum.</p>
+  <p>Donec nec semper dui, ut tincidunt urna. Quisque tempus lacinia ligula quis lacinia. Donec dignissim scelerisque tortor at interdum. Praesent rhoncus ligula sed dignissim viverra. Aliquam nisi arcu, pulvinar eu faucibus eget, vehicula et elit. Sed faucibus quam vitae metus vulputate, eget euismod quam finibus. Fusce consectetur enim eu quam maximus, vel vestibulum augue dapibus. Donec efficitur enim felis, in lobortis turpis porta cursus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer mollis tincidunt tempus. Proin dui ligula, gravida sed gravida eu, vehicula eget dui.</p>
+  <p>Maecenas vel malesuada metus. Quisque volutpat velit sem, nec vehicula quam lacinia et. Pellentesque fermentum egestas quam eget accumsan. Cras porta, justo at lacinia fringilla, dolor massa aliquam dolor, a ultrices urna tellus in massa. Fusce varius, dolor eget eleifend aliquet, nibh eros tristique mi, eu ullamcorper dui quam non leo. Nulla gravida, nunc sed venenatis malesuada, magna urna pharetra nisi, eget scelerisque magna erat ac lectus. Morbi quis dui leo. Pellentesque convallis fermentum viverra. Donec pretium, diam ut cursus tristique, ante purus efficitur nulla, sit amet dictum magna metus eu justo. Suspendisse convallis mi at convallis maximus. Donec consectetur fermentum convallis. Maecenas molestie facilisis arcu, vel euismod est faucibus maximus. Nullam aliquet enim lacus, in auctor quam feugiat dapibus.</p>
+</div>
+
+<%- include("partials/footer.ejs") %>
